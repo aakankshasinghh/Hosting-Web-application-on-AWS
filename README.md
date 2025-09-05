@@ -17,29 +17,28 @@ Launch with a key pair for SSH access.
    sudo apt update
    
 4. Install a web server(ngnix or apache)
-#Installing ngnix
-sudo apt install ngnix
+  #Installing ngnix
+  sudo apt install ngnix
 
 6.  Deploy Your Web Application
    Html File will be available on below path by default.
-/var/www/html/
+   /var/www/html/
 
  7. fetch the html file present on above path
- cd /var/www/html/ ls
-index.nginx-debian.html
+    cd /var/www/html/ ls
+    index.nginx-debian.html
 
  9. Remove the file
      rm -r index.ngnix-debian.html
 
  10. REcreate afile and write the code for application
-sudo nano index.html
+     sudo nano index.html
 
  11. File will get opened--Write the code in the file
-Hello World.
+     Hello World.
 
  12. Save the file.
-Ctrl+S
+    Ctrl+S
 
  13. Now  your application is live at:
-
-http://<EC2-Public-IP>
+     http://<EC2-Public-IP>
